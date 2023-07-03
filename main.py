@@ -20,8 +20,8 @@ class_='normal_price').text.strip()
 item_info = {'item_name': item_name , 'item_price':item_price}
 items.append(item_info)
 
-bot_token = '6345303348:AAHJYdv3YRhEorcFB05Z07uoigiXWhJM4bo'
-chat_id = '6345303348'
+bot_token = ''
+chat_id = ''
 
 message = 'Info about items:\n'
 for item in items:
